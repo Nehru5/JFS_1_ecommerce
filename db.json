@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "name": "Rajesh",
+      "email": "Rajesh@gmail.com",
+      "mobile": "9898787898",
+      "password": "123",
+      "id": "5gjClgBq7yk"
+    }
+  ],
+  "products": [
+    {
+      "product_id":1,
+      "product_name":"Samsung F23",
+      "product_price":20000,
+      "product_category":"Electronics",
+      "product_image":"https://rukminim2.flixcart.com/image/480/640/xif0q/mobile/0/h/k/-original-imagcg22czc3ggvw.jpeg?q=90",
+      "product_description":"This phone comes with a 16.25 (6.4) Full HD+ Infinity-U Display with a refresh rate of up to 120 Hz so that you can enjoy smooth multitasking and vibrant visuals",
+      "product_ratings":4.5
+    },
+    {
+      "product_id":2,
+      "product_name":"Oppo K13 Turbo",
+      "product_price":40000,
+      "product_category":"Electronics",
+      "product_image":"https://m.media-amazon.com/images/I/41Uc0VP3KxL._AC_UF1000,1000_QL80_.jpg",
+      "product_description":"The OPPO K13 Turbo 5G is a performance-focused gaming smartphone. It features a 6.78-inch 120Hz 1.5K AMOLED display, the MediaTek Dimensity 8450 chipset, and a massive 7000mAh battery with 80W charging",
+      "product_ratings":4.8
+    },
+        {
+      "product_id":3,
+      "product_name":"Asus Vivobook",
+      "product_price":75000,
+      "product_category":"Electronics",
+      "product_image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGVVgc-hFrJsYSUzvP_y34Uex4mslnyoQQdEJZ68tbfw&s=10",
+      "product_description":"The S Series (e.g., Vivobook S14/S16) features sleek, all-metal chassis designs, beautiful OLED displays, and dedicated AI keys. They are ultra-slim, lightweight, and boast 18+ hours of battery life",
+      "product_ratings":4.2
+    },
+        {
+      "product_id":4,
+      "product_name":"Hatsun Curd",
+      "product_price":4000,
+      "product_category":"Dairy",
+      "product_image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZvsPDjBjQb8EFCXoyYuBVsrCCNAIeedwBAohWWha_JBwp8nQ0_yzM3-o&s=10",
+      "product_description":"Hatsun Curd is a thick, creamy, and preservative-free dahi made from pasteurized toned milk. It is widely used for everyday meals, raitas, and lassis. A 500g pouch generally costs around ₹37–₹42, while 1kg tubs or pouches range from ₹115 to ₹120",
+      "product_ratings":4.9
+    },
+      {
+      "product_id":5,
+      "product_name":"Nike Sneakers",
+      "product_price":4000,
+      "product_category":"Fashion",
+      "product_image":"https://m.media-amazon.com/images/I/61CZW6nZZ+L._AC_UY1000_.jpg",
+      "product_description":"Nike Court Vision Low Men's Shoes In love with the old-school style of '80s basketball? Meet the Court Vision. It combines synthetic leather with a rubber cupsole, bringing you all-day comfort inspired by some of the most iconic silhouettes of the past.",
+      "product_ratings":4.5
+    }
+  ],
+  "orders": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}
