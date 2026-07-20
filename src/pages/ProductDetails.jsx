@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import {useParams} from "react-router-dom"
 import axios from 'axios'
 import { toast } from 'react-toastify'
+import { useNavigate } from 'react-router-dom'
 const ProductDetails = () => {
   const [product, setProduct] = useState({})
   const [quantity, setQuantity] = useState(1)
@@ -11,6 +12,8 @@ const ProductDetails = () => {
   const [customerEmail, setCustomerEmail] = useState("")
   const [customerMobile, setCustomerMobile] = useState("")
   const [customerAddress, setCustomerAddress] = useState("")
+
+  const navigate = useNavigate()
 
   function inc(){
     setQuantity(quantity+1)
@@ -50,6 +53,7 @@ const ProductDetails = () => {
         setCustomerName("")
         setCustomerMobile("")
         setCustomerEmail("")
+        navigate("/success")
       })
       .catch(err=>toast.error("Failed to place"))
     }

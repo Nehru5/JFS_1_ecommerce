@@ -5,6 +5,7 @@ import Signup from './pages/Signup'
 import Login from './pages/Login'
 import Dashboard from './pages/Dashboard'
 import ProductDetails from './pages/ProductDetails'
+import Success from './pages/Success'
 const App = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const App = () => {
       <Route path='/login' element={<Login/>}/>
       <Route path='/dashboard' element={<Dashboard/>}/>
       <Route path='/productdetails/:id' element={<ProductDetails/>}/>
+      <Route path='/success' element={<Success/>}/>
     </Routes>
     </>
   )

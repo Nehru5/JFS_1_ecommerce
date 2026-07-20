@@ -83,6 +83,34 @@
       "order_date": "17/7/2026",
       "product_image": "https://m.media-amazon.com/images/I/41Uc0VP3KxL._AC_UF1000,1000_QL80_.jpg",
       "id": "iJanRGU_iZE"
+    },
+    {
+      "customer_id": "5gjClgBq7yk",
+      "customer_name": "Kiran",
+      "customer_email": "nehruraja9485@gmail.com",
+      "customer_mobile": "09482947529",
+      "customer_address": "2nd cross Srinivas Nagar pattegarpalya bengaluru\nBalaji Presidency",
+      "product_id": "3",
+      "product_name": "Asus Vivobook",
+      "product_quantity": 2,
+      "total": 150000,
+      "order_date": "20/7/2026",
+      "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGVVgc-hFrJsYSUzvP_y34Uex4mslnyoQQdEJZ68tbfw&s=10",
+      "id": "GidUU2uWjp8"
+    },
+    {
+      "customer_id": "5gjClgBq7yk",
+      "customer_name": "Kiran",
+      "customer_email": "nehruraja9485@gmail.com",
+      "customer_mobile": "09482947529",
+      "customer_address": "2nd cross Srinivas Nagar pattegarpalya bengaluru\nBalaji Presidency",
+      "product_id": "3",
+      "product_name": "Asus Vivobook",
+      "product_quantity": 4,
+      "total": 300000,
+      "order_date": "20/7/2026",
+      "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGVVgc-hFrJsYSUzvP_y34Uex4mslnyoQQdEJZ68tbfw&s=10",
+      "id": "AZlNd-YvX4w"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
